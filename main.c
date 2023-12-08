@@ -8,10 +8,8 @@ int main(int argc,char *argv[])
 
     clock_t start_time = clock();
 
-    read_code(&store_code,argv[1]); //   read the input file fromm cmd
-
-    printf("%s",store_code);
-   tokens_genrator(store_code);
+     int length =read_file(&store_code,argv[1]);    // argv to read the input file fromm cmd
+     tokens(store_code,length);
 
     clock_t end_time = clock();
 
