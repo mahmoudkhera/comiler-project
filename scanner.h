@@ -7,10 +7,7 @@
     
     #define number_of_kewords 32
     #define max_lenght_of_code 1000
-
-
-    /*creat substring  and return a pointer to subtring */
-    char* substring(char *source_str, int left ,int right);
+    #define word_max    100
     /*check if token is operator*/
     int is_operator(char chr);
     /*check if token special character*/
