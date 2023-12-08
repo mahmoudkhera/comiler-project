@@ -24,9 +24,9 @@
     /*check if the token is real number*/
     int is_real_num (char *str);
 
-    /* tokenizer function that parse the code into tokens */
-    int  tokens_genrator(char *source_code);
     /*read the source code from anoter file  */
-    void read_code(char **output_code,char * input_file);
+    int  read_file(char **output_code,char * input_file);
+     /*generate  the tokens */
+    int tokens (char*words,int length);
 #endif 
 
